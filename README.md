@@ -28,19 +28,23 @@ b]views.py file consists of three functions that are-
 •	Ping-it is used to check, whether the server is running or not.
 
 
-c]I made one serializer by name DTSerializer which is used to serialize our data into JSON .
+c] I made one serializer by name DTSerializer which is used to serialize our data into JSON .
 
-d]urls.py file of ScheduleApi consists of three urls -
+d] urls.py file of ScheduleApi consists of three urls -
 
 •	http://localhost:8000
        by this user can register the new task by passing url and datetime field in the format given above.
+       
 •	http://localhost:8000/urlname
        in the place of urlname , we need to pass the url which is created by the user.
+       
 •	http://localhost:8000/ping
        this is used to check server is running or not.
 
+
 ### RESULT-
 if the datetime matches with the current datetime {datetime which is passed with the url },then it gives status as 200.
+
 
 For Example-
 Step One
